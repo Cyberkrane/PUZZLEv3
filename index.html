@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cyberkrane">
+    <meta name="author" content="Alex Snow">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
+
+    <title>Puzzle</title>
+</head>
+
+<body>
+    <!-- /////////////////// inicio ENCABEZADO ///////////////////// -->
+    <header>
+        <div class="row">
+            <div class="col-2">
+                <img src="./img/logoWeb.png" alt="">
+            </div>
+            <div class="col-10">
+                <h2><i>Puzzle Game Pack Angel</i></h2>
+            </div>
+        </div>
+    </header>
+    <!-- /////////////////// fin ENCABEZADO //////////////////////// -->
+
+
+    <!-- /////////////////// inicio LATERAL ///////////////////// -->
+    <div class="row">
+        <div class="col-2">
+
+            <h5 class="text-center">Busca pistas aqui</h5>
+            <br>
+            <div id="div1">
+                <script src="./js/lateral.js"></script>
+            </div>
+            <br>
+            <div class="container text-center">
+                <a href="/"><button type="reset" class="btn btn-secondary btn-lg btn-block">Reiniciar</button></a>
+            </div>
+
+        </div>
+        <!-- /////////////////// Fin LATERAL ///////////////////// -->
+
+
+        <!-- /////////////////// inicio PUZZLE ///////////////////// -->
+        <div class="col-10">
+            <div class="puzzle">
+                <div id="puzzleName">
+                </div>
+
+                <div id="imagenes">
+                    <div id="resultado" class="hide">
+                        <h3 class="display-4">Completado !!!</h3>
+                    </div>
+                </div>
+
+                <div id="contenedor">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////// Fin PUZZLE ///////////////////// -->
+    </div>
+
+    <!-- /////////////////// inicio FOOTER ///////////////////// -->
+    <footer>
+        <div class="row">
+            <div class="col-4 p-2">
+                <small>Creado por </small><a href="">Cyberkrane_2020 ©</a>
+
+            </div>
+            <div class="col-8 p-2">
+                <small>con la colaboracion de </small><a href=""><i>Alex Snow</i></a>
+
+            </div>
+        </div>
+    </footer>
+    <!-- /////////////////// fin FOOTER ///////////////////// -->
+</body>
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="./js/app.js"></script>
+
+</html>
