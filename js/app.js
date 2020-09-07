@@ -25,80 +25,12 @@ function init() {
     };
 
     var puzzles = [{
-            nombre: 'Dark Souls',
-            img: "./img/dark Souls/",
-        },
-        {
             nombre: 'Another',
             img: "./img/another/",
         },
         {
             nombre: 'Blood C',
             img: "./img/blood c/",
-        },
-        {
-            nombre: 'cry of fear',
-            img: "./img/cry of fear/",
-        },
-        {
-            nombre: 'dead space',
-            img: "./img/dead space/",
-        },
-        {
-            nombre: 'diablo 2',
-            img: "./img/diablo2/",
-        },
-        {
-            nombre: 'Doom',
-            img: "./img/doom/",
-        },
-        {
-            nombre: 'Full Metal Alchemist',
-            img: "./img/FMA/",
-        },
-        {
-            nombre: 'Half Life',
-            img: "./img/half-life/",
-        },
-        {
-            nombre: 'Hell Girl',
-            img: "./img/hell-girl/",
-        },
-        {
-            nombre: 'killing floor - dlc',
-            img: "./img/kf-dlc/",
-        },
-        {
-            nombre: 'killing floor',
-            img: "./img/killing floor/",
-        },
-        {
-            nombre: 'killing floor2',
-            img: "./img/killing floor2/",
-        },
-        {
-            nombre: 'one punch man',
-            img: "./img/one-punch-man/",
-        },
-        {
-            nombre: 'parasite',
-            img: "./img/parasite/",
-        },
-        {
-            nombre: 'quake',
-            img: "./img/quake/",
-        },
-        {
-            nombre: 'skyrim',
-            img: "./img/skyrim/",
-        },
-        {
-            nombre: 'solaire',
-            img: "./img/solaire/",
-        },
-        {
-            nombre: 'tokyo-ghoul',
-            img: "./img/tokio-ghoul/",
         },
         {
             nombre: 'violeta evergarden',
